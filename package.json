@@ -1,7 +1,7 @@
 {
   "name": "yaml-settings",
-  "version": "1.0.0",
-  "description": "manage",
+  "version": "1.0.1",
+  "description": "Read or write your configration in much more easy way in your client apps",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,9 +14,14 @@
     "url": "git+https://github.com/yangg/yaml-settings.git"
   },
   "keywords": [
-    "yaml"
+    "yaml",
+    "setting",
+    "config",
+    "configration",
+    "dot2val",
+    "pathval"
   ],
-  "author": "Brook Yang",
+  "author": "Brook Yang <uedsky@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yangg/yaml-settings/issues"

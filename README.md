@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/yangg/yaml-settings.svg?branch=master)](https://travis-ci.org/yangg/yaml-settings) [![Code Climate](https://codeclimate.com/github/yangg/yaml-settings/badges/gpa.svg)](https://codeclimate.com/github/yangg/yaml-settings) [![npm:](https://img.shields.io/npm/v/yaml-settings.svg?style=flat)](https://www.npmjs.com/packages/yaml-settings)
 
-Set or get a value within a deeply nested object using `dot' notation
+Read or write your configration in much more easy way in your node.js apps
 
 ## Installation
 ```bash
