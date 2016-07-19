@@ -25,5 +25,8 @@
   "dependencies": {
     "dot2val": "^1.0.2",
     "js-yaml": "^3.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }

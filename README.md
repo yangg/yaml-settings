@@ -21,6 +21,18 @@ config.init({
 
 modules.exports = config;
 ```
+Then read or write your configrations in anywhere of your project
+```js
+const config = require('./config');
+config.set('alias.b', 'blog');  // add config key
+config.get('alias.b');          // read config
+config.set('alias.b');          // delete config
+```
+More info about the \`dot' notation in `get` and `set`, see [dot2val](https://github.com/yangg/dot2val)
+
+## Related Projects
+* [yangg / dotval](https://github.com/yangg/dot2val) Set or get a value within a deeply nested object using `dot' notation
+* [yangg / git-shortcut](https://github.com/yangg/git-shortcut)
 
 ## License
 MIT
