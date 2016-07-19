@@ -1,0 +1,29 @@
+{
+  "name": "yaml-settings",
+  "version": "1.0.0",
+  "description": "manage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangg/yaml-settings.git"
+  },
+  "keywords": [
+    "yaml"
+  ],
+  "author": "Brook Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangg/yaml-settings/issues"
+  },
+  "homepage": "https://github.com/yangg/yaml-settings#readme",
+  "dependencies": {
+    "dot2val": "^1.0.2",
+    "js-yaml": "^3.6.1"
+  }
+}
