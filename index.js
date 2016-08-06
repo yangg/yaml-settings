@@ -33,6 +33,9 @@ class Settings {
     Object.assign(this.config, options, config);
   }
   get(key, def) {
+    if(typeof key === 'undefined') {
+      return this.config;
+    }
     return dot2val.get(this.config, key, def);
   }
   set(key, val) {

@@ -1,6 +1,6 @@
 {
   "name": "yaml-settings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read or write your configration in much more easy way in your client apps",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/yangg/yaml-settings#readme",
   "dependencies": {
-    "dot2val": "^1.0.2",
+    "dot2val": "^1.1.0",
     "js-yaml": "^3.6.1"
   },
   "devDependencies": {

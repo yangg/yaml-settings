@@ -19,7 +19,7 @@ config.init({
   git_cmd: 'git'
 }); // init with default settings
 
-modules.exports = config;
+module.exports = config;
 ```
 Then read or write your configrations in anywhere of your project
 ```js
