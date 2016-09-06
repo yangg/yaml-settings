@@ -4,6 +4,10 @@
 
 Read or write configration in much more easy way in node.js apps
 
+## Features
+* Ready or write configration via `dot` notation.
+* Automatically save to config file when you call `set()`.
+
 ## Installation
 ```bash
 npm install --save yaml-settings
@@ -24,7 +28,7 @@ module.exports = config;
 Then read or write your configrations in anywhere of your project
 ```js
 const config = require('./config');
-config.set('alias.b', 'blog');  // add config key
+config.set('alias.b', 'blog');  // add config key, and save it automatically
 config.get('alias.b');          // read config
 config.set('alias.b');          // delete config
 ```
