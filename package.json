@@ -1,6 +1,6 @@
 {
   "name": "yaml-settings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Read or write your configration in much more easy way in your client apps",
   "main": "index.js",
   "scripts": {

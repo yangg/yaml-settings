@@ -46,7 +46,7 @@ class Settings {
     delay = delay || this.delay;
     clearTimeout(this._timer);
     this._timer = setTimeout(() => {
-      fs.writeFileSync(this.configPath, yaml.safeDump(this.config));
+      fs.writeFileSync(this.configPath, yaml.safeDump(this.config, { sortKeys: true }));
     }, delay);
   }
 }
