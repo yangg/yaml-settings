@@ -46,6 +46,10 @@ class Settings {
     delay = delay || this.delay;
     clearTimeout(this._timer);
     this._timer = setTimeout(() => {
+      let confDir = Path.dirname(this.configPath)
+      if(!fs.existsSync(confDir)) { // create confDir if not exists
+        fs.mkdirSync(confDir);
+      }
       fs.writeFileSync(this.configPath, yaml.safeDump(this.config, { sortKeys: true }));
     }, delay);
   }
